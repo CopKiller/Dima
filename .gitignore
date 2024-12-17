@@ -1,0 +1,89 @@
+# Build Folders
+bin/
+obj/
+
+# User-Specific Files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+logs/
+**/*.log
+
+# Visual Studio Code
+.vscode/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Environment Secrets
+appsettings.*.json
+!appsettings.Development.json
+secrets.json
+
+# Debug and Crash Dumps
+*.pid
+*.svclog
+*.psess
+*.tmd
+
+# Transient .NET Files
+*.cache
+*.db
+*.db-shm
+*.db-wal
+*.db.lock
+
+# Entity Framework Migrations
+Migrations/
+
+# Service Workers (Blazor WASM)
+wwwroot/service-worker.js
+wwwroot/service-worker.published.js
+
+# Temporary Files
+*.tmp
+*.temp
+~$*
+
+# Compiled Assemblies
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.ilk
+*.obj
+*.o
+*.iobj
+*.ipdb
+*.rsp
+
+# Coverage Reports
+*.coverage
+*.coveragexml
+TestResults/
+*.trx
+*.cobertura.xml
+lcov.info
+
+# Generated Files
+Generated/
+gen/
+
+# Blazor WebAssembly Specific
+wwwroot/service-worker-assets.js
+**/publish/
+
+# Ignore User Secrets for API
+secrets.json
